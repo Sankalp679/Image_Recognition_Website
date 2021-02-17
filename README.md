@@ -26,6 +26,6 @@
 **4 Meet : 17 Feb 2021**
 
 1. Made cropped folder by using code where all the clear cropped images in which faces are easily recognizable are available.and then did manually checking of all the images.
-2. After this converted images in no. matrix.
+2. We did wavelet transformed as a feature engineering.In this you can see edges clearly and that can give us more clues on various facial features such as eyes, nose, lips etc.
 
 
