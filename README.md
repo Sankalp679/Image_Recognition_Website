@@ -12,13 +12,14 @@
 
 **2 Meet : 15 Feb 2021**
 
-1. Found out the code for downloading images in bulk and download all the images.And created the dataset.
+1. Found out the code for image scrapping
+2. Downloaded 50 images of each celebrity and created the dataset.
 
 ------------
 
 **3 Meet : 16 Feb 2021**
 
-1. Installed all the necessary libraries needed for the project like pywavelets,opencv etc.
+1. Installed all the necessary libraries needed for the project like pywavelets,opencv,seaborn etc.
 2. Started data cleaning with open cv haarcascade technique.
 
 ------------
