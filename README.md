@@ -23,3 +23,9 @@
 
 ------------
 
+**4 Meet : 17 Feb 2021**
+
+1. Made cropped folder by using code where all the clear cropped images in which faces are easily recognizable are available.and then did manually checking of all the images.
+2. After this converted images in no. matrix.
+
+
