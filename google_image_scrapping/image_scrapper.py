@@ -16,5 +16,5 @@ root = Path().cwd()/"images"
 
 from jmd_imagescraper.core import * 
 
-duckduckgo_search(root, "Kaira Advani", "kaira advani", max_results=50)
+duckduckgo_search(root, "Kaira Advani", "kaira advani", max_results=300)
 
