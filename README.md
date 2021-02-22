@@ -12,14 +12,21 @@
 
 **2 Meet : 15 Feb 2021**
 
-1. Found out the code for downloading images in bulk and download all the images.And created the dataset.
+1. Found out the code for image scrapping
+2. Downloaded 50 images of each celebrity and created the dataset.
 
 ------------
 
 **3 Meet : 16 Feb 2021**
 
-1. Installed all the necessary libraries needed for the project like pywavelets,opencv etc.
+1. Installed all the necessary libraries needed for the project like pywavelets,opencv,seaborn etc.
 2. Started data cleaning with open cv haarcascade technique.
 
 ------------
+
+**4 Meet : 17 Feb 2021**
+
+1. Made cropped folder by using code where all the clear cropped images in which faces are easily recognizable are available.and then did manually checking of all the images.
+2. We did wavelet transformed as a feature engineering.In this you can see edges clearly and that can give us more clues on various facial features such as eyes, nose, lips etc.
+
 
