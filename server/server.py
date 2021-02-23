@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import util
+import scratch
 
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ app = Flask(__name__)
 def classify_image():
     image_data = request.form['image_data']
 
-    response = jsonify(util.classify_image(image_data))
+    response = jsonify(scratch.classify_image(image_data))
 
     response.headers.add('Access-Control-Allow-Origin', '*')
 
@@ -17,5 +17,5 @@ def classify_image():
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Sports Celebrity Image Classification")
-    util.load_saved_artifacts()
+    scratch.load_saved_artifacts()
     app.run(port=5000)
