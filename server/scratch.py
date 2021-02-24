@@ -103,10 +103,9 @@ def get_b64_test_image_for_virat():
 
 if __name__ == '__main__':
     load_saved_artifacts()
-
-    # print(classify_image(get_b64_test_image_for_virat(), None))
-
-    print(classify_image(None, "./test_images/Sharukh_1.jpg"))
+    # print(class_number_to_name(2))
+    print(classify_image(get_b64_test_image_for_virat(), None))
+    # print(classify_image(None, "./test_images/Sharukh_1.jpg"))
     # print(classify_image(None, "./test_images/federer2.jpg"))
     # print(classify_image(None, "./test_images/virat1.jpg"))
     # print(classify_image(None, "./test_images/virat2.jpg"))

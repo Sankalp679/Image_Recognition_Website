@@ -6,16 +6,16 @@ app = Flask(__name__)
 
 @app.route('/classify_image', methods=['GET', 'POST'])
 def classify_image():
-    image_data = request.form['image_data']
+    # image_data = request.form['image_data']
+    #
+    # response = jsonify(scratch.classify_image(image_data))
+    #
+    # response.headers.add('Access-Control-Allow-Origin', '*')
 
-    response = jsonify(scratch.classify_image(image_data))
-
-    response.headers.add('Access-Control-Allow-Origin', '*')
-
-    return response
+    return "hi"
 
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Sports Celebrity Image Classification")
-    scratch.load_saved_artifacts()
+    # scratch.load_saved_artifacts()
     app.run(port=5000)
