@@ -1,4 +1,4 @@
-# Sem_6_Mini_Project
+# An end-to-end application of Machine Learning
 
 **1 Meet : 14 Feb 2021**
 
