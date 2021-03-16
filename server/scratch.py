@@ -1,12 +1,3 @@
-# f = open("", "r")
-# print(f)
-# import os
-#
-# cwd = os.getcwd()  # Get the current working directory (cwd)
-# files = os.listdir(cwd)  # Get all the files in that directory
-# print("Files in %r: %s" % (cwd, files))
-# f = open("saved_model.pkl", "r")
-# print(f)
 import joblib
 import json
 import numpy as np
@@ -75,8 +66,8 @@ def get_cv2_image_from_base64_string(b64str):
 
 
 def get_cropped_image_if_2_eyes(image_path, image_base64_data):
-    face_cascade = cv2.CascadeClassifier('./opencv/haarcascades/haarcascade_frontalface_default.xml')
-    eye_cascade = cv2.CascadeClassifier('./opencv/haarcascades/haarcascade_eye.xml')
+    face_cascade = cv2.CascadeClassifier('C:\\Users\\Sankalp Jain\\Desktop\\Mini Project\\Sem_6_Mini_Project\\server\\opencv\\haarcascades\\haarcascade_frontalface_default.xml')
+    eye_cascade = cv2.CascadeClassifier('C:\\Users\\Sankalp Jain\\Desktop\\Mini Project\\Sem_6_Mini_Project\\server\\opencv\\haarcascades\\haarcascade_eye.xml')
 
     if image_path:
         img = cv2.imread(image_path)
@@ -104,7 +95,7 @@ def get_b64_test_image_for_virat():
 if __name__ == '__main__':
     load_saved_artifacts()
     # print(class_number_to_name(2))
-    print(classify_image(get_b64_test_image_for_virat(), None))
+    # print(classify_image(get_b64_test_image_for_virat(), None))
     # print(classify_image(None, "./test_images/Sharukh_1.jpg"))
     # print(classify_image(None, "./test_images/federer2.jpg"))
     # print(classify_image(None, "./test_images/virat1.jpg"))
