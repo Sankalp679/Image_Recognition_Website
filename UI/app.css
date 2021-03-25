@@ -1,18 +1,18 @@
-.display-heading
-{
-  margin-bottom: 1%;
-}
-
 .display-wrapper
 {
+  background-color: rosybrown;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.display-h2
-{
-  font-size: 1.5em;
+.custom-circle-image {
+  width: 20vw; /* note i used vw not px for better responsive */
+  height: 20vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
 }
 
 .display-card{
@@ -21,12 +21,8 @@
   width: 20%;
   margin: 2%;
   cursor: pointer;
-  height: 350px; 
-}
-
-.display-front
-{
-  background-color:orange;
+  height: 300px; 
+  border-radius: 5%;
 }
 
 .display-front,.display-back{
@@ -39,7 +35,7 @@
 }
 
 .display-front img{
-  height: 80%;
+  height: 100%;
   width: 100%;
   transform: perspective(600px) rotateY(0deg);
 }
@@ -52,11 +48,11 @@
 .display-back{
   background: black;
   transform: perspective(600px) rotateY(180deg);
+
 }
 .display-back-content{
   margin-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 7%;
   text-align: center;
   color: white;
   font-size: 0.4rem;
