@@ -1,6 +1,6 @@
 .display-wrapper
 {
-  background-color: rosybrown;
+  background-color: light grey;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
