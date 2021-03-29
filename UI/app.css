@@ -1,18 +1,28 @@
+body, html {
+  height: 100%;
+}
+
+.container
+{
+  margin-top: 30px;
+}
+
+.image-1,image-2,.image-3,.image-4
+{
+  border:1px black solid;
+}
+
 .display-wrapper
 {
-  background-color: light grey;
+  background-image: url("./images/1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.custom-circle-image {
-  width: 20vw; /* note i used vw not px for better responsive */
-  height: 20vw;
-}
-
-.custom-circle-image img {
-  object-fit: cover;
 }
 
 .display-card{
@@ -22,7 +32,7 @@
   margin: 2%;
   cursor: pointer;
   height: 300px; 
-  border-radius: 5%;
+  margin-bottom: 50px;
 }
 
 .display-front,.display-back{
@@ -76,7 +86,6 @@
     height: 320px;
   }
 }
-
 @media screen and (max-width :937px)
 {
   .display-card{
@@ -232,30 +241,7 @@
     -webkit-transform: scale(1.05);
   } */
 
-
-.card-wrapper {
-    margin: 5% 0;
-  }
-  
 /* You can adjust the image size by increasing/decreasing the width, height */
-.custom-circle-image {
-  width: 15vw; /* note i used vw not px for better responsive */
-  height: 15vw;
-}
-
-.custom-circle-image img {
-  object-fit: cover;
-}
-
-.card-title {
-  letter-spacing: 1.1px;
-}
-
-.card-text {
-  font-family: "Georgia" !important;
-  font-size: 20 px;
-  line-height: initial;
-}
 
 .dropzone {
   border-style: dashed;
@@ -289,4 +275,3 @@
   color: white;
 }
 
-/* Flaired edges */
