@@ -15,9 +15,9 @@ body, html {
 .display-wrapper
 {
   background-image: url("./images/1.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  height:auto;
+  background-position: cover;
+  background-repeat:inherit;
   background-size: cover;
   background-color: white;
   display: flex;
@@ -28,10 +28,10 @@ body, html {
 .display-card{
   display: flex;
   position: relative;
-  width: 20%;
-  margin: 2%;
+  width: 16%;
+  margin: 4%;
   cursor: pointer;
-  height: 300px; 
+  height: 230px; 
   margin-bottom: 50px;
 }
 

@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8ed9931-3718-4150-a602-afd8a5cc580f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UI/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/images/alia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/images/alia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/images/deepika.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/images/deepika.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/images/salman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/images/salman.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/images/sharukh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/images/sharukh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8ed9931-3718-4150-a602-afd8a5cc580f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +90,7 @@
       <updated>1616405941926</updated>
       <workItem from="1616405961585" duration="2176000" />
       <workItem from="1616429447959" duration="2945000" />
+      <workItem from="1617305983513" duration="621000" />
     </task>
     <servers />
   </component>
@@ -121,7 +109,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/server$server.coverage" NAME="server Coverage Results" MODIFIED="1616433460090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/server$server.coverage" NAME="server Coverage Results" MODIFIED="1617306000532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/server$Unnamed.coverage" NAME="server Coverage Results" MODIFIED="1616407884748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>

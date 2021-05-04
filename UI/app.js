@@ -59,7 +59,7 @@ function init() {
                 $("#error").show();
                 return;
             }
-            let celebrity = ["sharukh_khan", "salman_khan", "alia_bhat", "deepika_padukone"];
+            let celebrity = ["shahrukh_khan", "salman_khan", "alia_bhat", "deepika_padukone"];
             
             let match = null;
             let bestScore = -1;
